@@ -6,11 +6,22 @@ import org.junit.Before;
 import org.junit.Test;
 import org.junit.After;
 import static org.junit.Assert.*;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 /**
  * Unit test for simple App.
  */
 public class AppTest
+{
+
+    private static final Logger LOGGER = LogManager.getLogger(AppTest.class);
+    
+    @Test
+    public void testMySimpleTest() {
+        LOGGER.info("Hello from my simple test");
+    }
+
 {
 
     private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
