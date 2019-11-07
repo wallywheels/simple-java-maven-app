@@ -39,6 +39,12 @@
     </dependency>
     <dependency>
       <groupId>com.epam.reportportal</groupId>
+      <artifactId>agent-java-junit</artifactId>
+      <version>4.1.8</version>
+      <scope>test</scope>
+  </dependency>
+    <dependency>
+      <groupId>com.epam.reportportal</groupId>
       <artifactId>logger-java-logback</artifactId>
       <version>4.0.0</version>
     </dependency>
