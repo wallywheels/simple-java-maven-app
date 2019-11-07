@@ -51,7 +51,7 @@ public class AppTest
     
     @Test
     public void testMySimpleTest() {
-        LOGGER.info("Hello from my simple test");
+        LOGGER.info("Hello World!");
     }
 
 }
