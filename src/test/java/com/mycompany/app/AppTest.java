@@ -22,8 +22,6 @@ public class AppTest
         LOGGER.info("Hello from my simple test");
     }
 
-{
-
     private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
 
     @Before
