@@ -15,13 +15,6 @@ import org.apache.logging.log4j.Logger;
 public class AppTest
 {
 
-    private static final Logger LOGGER = LogManager.getLogger(AppTest.class);
-    
-    @Test
-    public void testMySimpleTest() {
-        LOGGER.info("Hello from my simple test");
-    }
-
     private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
 
     @Before
@@ -52,6 +45,13 @@ public class AppTest
     @After
     public void cleanUpStreams() {
         System.setOut(null);
+    }
+
+    private static final Logger LOGGER = LogManager.getLogger(AppTest.class);
+    
+    @Test
+    public void testMySimpleTest() {
+        LOGGER.info("Hello from my simple test");
     }
 
 }
