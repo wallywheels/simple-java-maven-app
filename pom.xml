@@ -32,20 +32,15 @@
       <version>1.2.3</version>
     </dependency>
     <dependency>
-      <groupId>com.epam.reportportal</groupId>
-      <artifactId>agent-java-junit</artifactId>
-      <version>4.1.10</version>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.11</version>
+      <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>com.epam.reportportal</groupId>
       <artifactId>logger-java-logback</artifactId>
       <version>4.0.0</version>
-    </dependency>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.11</version>
-      <scope>test</scope>
     </dependency>
   </dependencies>
   <build>
